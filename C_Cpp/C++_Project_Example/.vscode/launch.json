@@ -1,0 +1,47 @@
+/*  参考网址：
+    欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    csdn 博客配置 https://blog.csdn.net/bat67/article/details/76095813
+    知乎配置 https://www.zhihu.com/question/30315894
+    VS Code 编译调试C/C++: http://cauyxy.com/2019/04/20/C++/
+    */
+/*  相关目录标识符
+    ${workspaceFolder} - the path of the folder opened in VS Code
+    ${workspaceRootFolderName} - the name of the folder opened in VS Code without any slashes (/)
+    ${file} - the current opened file
+    ${relativeFile} - the current opened file relative to workspaceRoot
+    ${fileBasename} - the current opened file's basename
+    ${fileBasenameNoExtension} - the current opened file's basename with no file extension
+    ${fileDirname} - the current opened file's dirname
+    ${fileExtname} - the current opened file's extension
+    ${cwd} - the task runner's current working directory on startup
+    ${lineNumber} - the current selected line number in the active file
+    */
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/${workspaceRootFolderName}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "E:\\mingw64\\bin\\gdb.exe", // miDebugger的路径，注意这里要与MinGw的路径对应
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build" //在调试前进行编译链接
+        }
+    ]
+}

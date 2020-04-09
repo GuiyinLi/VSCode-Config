@@ -1,0 +1,68 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    /*  相关目录标识符
+        ${workspaceFolder} - the path of the folder opened in VS Code
+        ${workspaceRootFolderName} - the name of the folder opened in VS Code without any slashes (/)
+        ${file} - the current opened file
+        ${relativeFile} - the current opened file relative to workspaceRoot
+        ${fileBasename} - the current opened file's basename
+        ${fileBasenameNoExtension} - the current opened file's basename with no file extension
+        ${fileDirname} - the current opened file's dirname
+        ${fileExtname} - the current opened file's extension
+        ${cwd} - the task runner's current working directory on startup
+        ${lineNumber} - the current selected line number in the active file
+    */
+    "version": "2.0.0",
+    "tasks": [
+        { //compile file
+            "label": "Compile",
+            "type": "shell", // 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令
+            "command": "E:\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}", //在哪个文件的视图上选择仿真,则选择哪个文件
+                "-o", // 指定输出文件名,不加该参数则默认输出a.exe,Linux下默认a.out
+                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe" //选择输出的文件名称,和前面的${file}是对应的，一般默认的名称就是前面的${file}.exe
+            ],
+            //"fileLocation": ["relative", "\\"],
+            "options": {
+                "cwd": "E:\\mingw64\\bin"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": { //解决错误路径重复问题
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "\\"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        { //run exe
+            "label": "Run", //这里注意一下,见下文
+            "type": "shell", // 可以为shell或process,前者相当于先打开shell再输入命令，后者是直接运行命令
+            "command": [],
+            "args": [
+                "${workspaceFolder}/bin/${fileBasenameNoExtension}.exe"
+            ],
+            "dependsOn": [
+                "Compile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/VS_Code_program/C-C++/C++_Project_Exmple/build",
+  "command": "g++   @CMakeFiles/C++_Project_Exmple.dir/includes_CXX.rsp -g  -fexec-charset=GBK -g   -o CMakeFiles\\C++_Project_Exmple.dir\\source\\main.cpp.obj -c D:\\VS_Code_program\\C-C++\\C++_Project_Exmple\\source\\main.cpp",
+  "file": "D:/VS_Code_program/C-C++/C++_Project_Exmple/source/main.cpp"
+}
+]

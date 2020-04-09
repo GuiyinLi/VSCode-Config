@@ -1,0 +1,14 @@
+{
+    //Python设置
+    "python.linting.pylintArgs": [
+        "--disable=C,broad-except,anomalous-backslash-in-string,pointless-string-statement,",
+    ],
+    "python.analysis.disabled": [
+        //"unresolved-import"
+    ],
+    //文件编码
+    "files.encoding": "utf8",
+    //code-runner设置
+    "code-runner.runInTerminal": false, // 设置成false会在“输出”中输出，无法输入
+    "code-runner.preserveFocus": false, // 若为false，run code后光标会聚焦到终端上。如果需要频繁输入数据可设为false
+}

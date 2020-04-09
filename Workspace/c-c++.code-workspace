@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "D:\\VS_Code_program\\C-C++\\C_Project_Example"
+		}
+	],
+	"settings": {
+		//C_Cpp
+		"C_Cpp.errorSquiggles": "Enabled", //c/c++语法错误提示，必须开启
+		"C_Cpp.clang_format_sortIncludes": true, // 格式化时调整include的顺序（按字母排序）
+		"C_Cpp.suggestSnippets": false,
+		"C_Cpp.updateChannel": "Insiders",
+		//文件配置
+		"files.defaultLanguage": "c", // ctrl+N新建文件后默认的语言
+		"files.encoding": "utf8",
+		"files.insertFinalNewline": true, // 保存后文件最末尾加一整行空行，Linux下的习惯
+		"files.associations": {
+			"string.h": "c",
+			"stdio.h": "c",
+			"stdlib.h": "c"
+		},
+		//主题
+		"workbench.colorTheme": "Monokai",
+		//code-runner
+		"code-runner.runInTerminal": true, // 设置成false会在“输出”中输出，无法输入
+		"code-runner.preserveFocus": false, // 若为false，run code后光标会聚焦到终端上。如果需要频繁输入数据可设为false
+		"code-runner.ignoreSelection": true, // 默认为false，效果是鼠标选中一块代码后可以单独执行，但C是编译型语言，不适合这样用
+		//cmake配置
+		"cmake-tools-helper.cmake_download_path": "c:\\Users\\Dell\\.vscode\\extensions\\maddouri.cmake-tools-helper-0.2.1\\cmake_download",
+		"cmake.configureOnOpen": false,
+		"cmake.debugConfig": {
+			"externalConsole": true
+		},
+		"cmake.clearOutputBeforeBuild": true,
+		"cmake.enableTraceLogging": false,
+	},
+}

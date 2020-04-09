@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/VS_Code_program/C-C++/C_Project_Example/source/test.c
+stdio.h
+D:/VS_Code_program/C-C++/C_Project_Example/source/stdio.h
+stdlib.h
+D:/VS_Code_program/C-C++/C_Project_Example/source/stdlib.h
+

@@ -1,0 +1,85 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [ //all tasks are depended on the CMakeLists.txt
+        { //compile project(mingw32-make)
+            "label": "Compile",
+            "type": "shell",
+            "command": "mingw32-make", //E:\mingw64\bin\mingw32-make
+            "args": [],
+            "dependsOn": [
+                "link"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        { //locate the build folder(cmake)
+            "label": "link",
+            "type": "shell",
+            "command": "cmake", //E:\Cmake\cmake
+            "args": [
+                "-G",
+                "MinGW Makefiles",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                ".."
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        { //compile project(.bat) , equal cmake+mingw32-make
+            "label": "build",
+            "type": "shell",
+            "command": "${workspaceFolder}\\build.bat",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": { //解决错误路径重复问题
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "\\"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        { //run project without debuging(./xxx.exe)
+            "label": "Run",
+            "type": "shell",
+            "command": [],
+            "args": [
+                "${workspaceFolder}/bin/${workspaceRootFolderName}.exe"
+            ],
+            "dependsOn": [
+                "build"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/bin"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

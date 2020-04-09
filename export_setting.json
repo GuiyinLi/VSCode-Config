@@ -1,0 +1,125 @@
+{
+    /*  网易云音乐插件：
+        https://github.com/electron/electron/releases
+        https://npm.taobao.org/mirrors/electron/4.2.5/
+        */
+    //git配置
+    "git.autofetch": true,
+    "git.enabled": false,
+    "git.ignoreLimitWarning": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    //code-runner配置
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.preserveFocus": false, // 若为false，run code后光标会聚焦到终端上。如果需要频繁输入数据可设为false
+    //文件操作
+    "editor.snippetSuggestions": "top", // snippets代码优先显示补全
+    "editor.formatOnType": true, // （对于C/C++）输入时就进行格式化，默认触发字符较少，分号可以触发
+    "editor.formatOnSave": true, //保存时自动格式化
+    "editor.acceptSuggestionOnEnter": "off", //按回车时一定是真正的换行，只有tab才会接受Intellisense
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "terminal.integrated.rendererType": "dom",
+    "files.trimTrailingWhitespace": true, // 保存时，删除每一行末尾的空格
+    "files.insertFinalNewline": true, // 保存后文件最末尾加一整行空行，Linux下的习惯
+    "files.autoGuessEncoding": true, //编码设置
+    "files.encoding": "utf8",
+    "files.autoSave": "onFocusChange",
+    //文件头注释
+    "fileheader.configObj": {
+        "autoAdd": true, // 自动添加文件头
+    },
+    "fileheader.customMade": {
+        "Author": "Ken Kaneki",
+        "Date": "Do not edit",
+        "LastEditTime": "Do not edit",
+        "Description": "README",
+        "FilePath": "Do not edit"
+    },
+    //更新设置
+    "update.mode": "manual",
+    //远程同步插件
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.gist": "bc7cd04c092e9ebf5ff81d998fab079c",
+    //页面配置
+    "window.zoomLevel": 0,
+    "editor.fontSize": 18,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.cursorSmoothCaretAnimation": true, // 移动光标时变得平滑
+    "editor.smoothScrolling": true, // 滚动平滑，不过效果很微弱
+    "editor.cursorWidth": 2,
+    "backgroundCover.randomImageFolder": "C:\\Users\\Dell\\Desktop\\temp\\codeBackground",
+    "backgroundCover.imagePath": "C:\\Users\\Dell\\Desktop\\temp\\codeBackground\\17.jpg",
+    "backgroundCover.opacity": 0.4,
+    "backgroundCover.autoStatus": true,
+    //颜色搭配
+    "workbench.colorCustomizations": {
+        "statusBar.debuggingBackground": "#8B7B8B",
+        "statusBar.debuggingBorder": "#B0C4DE",
+        "statusBar.debuggingForeground": "#F5FFFA",
+        "activityBarBadge.background": "#f57672",
+        "list.activeSelectionForeground": "#FF7042",
+        "list.inactiveSelectionForeground": "#BC8F8F",
+        "list.highlightForeground": "#42ff71",
+        "scrollbarSlider.activeBackground": "#FF704250",
+        "editorSuggestWidget.highlightForeground": "#4aeb6d",
+        "textLink.foreground": "#FF7042",
+        "progressBar.background": "#FFDEAD",
+        "pickerGroup.foreground": "#CD69C9",
+        "tab.activeBorder": "#5e42ff",
+        "notificationLink.foreground": "#D8BFD8",
+        "editorWidget.resizeBorder": "#FF7042",
+        "editorWidget.border": "#FF7042",
+        "settings.modifiedItemIndicator": "#ff424b",
+        "settings.headerForeground": "#dcff42",
+        "panelTitle.activeBorder": "#4aadee",
+        "breadcrumb.activeSelectionForeground": "#dcff42",
+        "menu.selectionForeground": "#d4b06c",
+        "menubar.selectionForeground": "#ffbd42",
+        "editor.findMatchBorder": "#4aeb6d",
+        "selection.background": "#FF704240",
+        "editorCursor.foreground": "#adaaaa"
+    },
+    //其他
+    "search.followSymlinks": false,
+    "leetcode.endpoint": "leetcode-cn",
+    "http.proxySupport": "off",
+    "vsicons.dontShowNewVersionMessage": true,
+    "task.slowProviderWarning": [
+        "typescript"
+    ],
+    //cSpell.enabledLanguageIds
+    "cSpell.enableFiletypes": [
+        "cSpell.enabledLanguageIds",
+        "python",
+        "c",
+        "c++"
+    ],
+    "cSpell.userWords": [
+        "Kaneki"
+    ],
+    "cSpell.allowedSchemas": [
+        "file",
+        "untitled",
+        "*.py",
+        "*.c",
+        "*.h",
+        "*.cpp",
+        "*.c++"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "NeteaseMusic.CDN.redirect": false,
+    "NeteaseMusic.API.SSL": false,
+}
