@@ -37,7 +37,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "Compile", // 调试会话开始前执行的任务，一般为编译程序，c++为g++, c为gcc 要与task.json中的label值一样
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "Compile current code", // 调试会话开始前执行的任务，一般为编译程序，c++为g++, c为gcc 要与task.json中的label值一样
         }
     ]
 }

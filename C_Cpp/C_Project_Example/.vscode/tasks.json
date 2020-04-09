@@ -2,6 +2,24 @@
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
     "version": "2.0.0",
+    "presentation": {
+        "clear": true
+    },
+    "problemMatcher": { //解决错误路径重复问题
+        "owner": "cpp",
+        "fileLocation": [
+            "relative",
+            "\\"
+        ],
+        "pattern": {
+            "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+        }
+    },
     "tasks": [ //all tasks are depended on the CMakeLists.txt
         { //compile project(mingw32-make)
             "label": "Compile",
@@ -46,21 +64,6 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": { //解决错误路径重复问题
-                "owner": "cpp",
-                "fileLocation": [
-                    "relative",
-                    "\\"
-                ],
-                "pattern": {
-                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
-                    "file": 1,
-                    "line": 2,
-                    "column": 3,
-                    "severity": 4,
-                    "message": 5
-                }
-            }
         },
         { //run project without debuging(./xxx.exe)
             "label": "Run",
@@ -79,7 +82,14 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": []
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
         }
     ]
 }

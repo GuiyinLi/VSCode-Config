@@ -41,6 +41,7 @@
                     "ignoreFailures": true
                 }
             ],
+            "internalConsoleOptions": "neverOpen",
             "preLaunchTask": "build" //在调试前进行编译链接
         }
     ]

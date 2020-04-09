@@ -122,4 +122,7 @@
     },
     "NeteaseMusic.CDN.redirect": false,
     "NeteaseMusic.API.SSL": false,
+    "terminal.integrated.shellArgs.windows": [
+        "-Nologo"
+    ],
 }
