@@ -10,10 +10,6 @@
             "args": [
                 "${file}"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
             "problemMatcher": [
                 "$go"
             ]
@@ -28,7 +24,10 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": [
+                "$go"
+            ]
         }
     ]
 }
