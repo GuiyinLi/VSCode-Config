@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/VS_Code_program/C-C++/C++_Project_Exmple/source/main.cpp" "D:/VS_Code_program/C-C++/C++_Project_Exmple/build/CMakeFiles/C++_Project_Exmple.dir/source/main.cpp.obj"
+  "D:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example/source/main.cpp" "D:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example/build/CMakeFiles/Cpp_Project_Example.dir/source/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

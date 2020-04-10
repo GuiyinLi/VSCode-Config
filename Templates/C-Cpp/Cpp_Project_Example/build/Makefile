@@ -47,24 +47,13 @@ RM = E:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VS_Code_program\C-C++\C++_Project_Exmple
+CMAKE_SOURCE_DIR = D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VS_Code_program\C-C++\C++_Project_Exmple\build
+CMAKE_BINARY_DIR = D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example\build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	E:\CMake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -77,11 +66,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	E:\CMake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VS_Code_program\C-C++\C++_Project_Exmple\build\CMakeFiles D:\VS_Code_program\C-C++\C++_Project_Exmple\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example\build\CMakeFiles D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VS_Code_program\C-C++\C++_Project_Exmple\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named C++_Project_Exmple
+# Target rules for targets named Cpp_Project_Example
 
 # Build rule for target.
-C++_Project_Exmple: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 C++_Project_Exmple
-.PHONY : C++_Project_Exmple
+Cpp_Project_Example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Cpp_Project_Example
+.PHONY : Cpp_Project_Example
 
 # fast build rule for target.
-C++_Project_Exmple/fast:
-	$(MAKE) -f CMakeFiles\C++_Project_Exmple.dir\build.make CMakeFiles/C++_Project_Exmple.dir/build
-.PHONY : C++_Project_Exmple/fast
+Cpp_Project_Example/fast:
+	$(MAKE) -f CMakeFiles\Cpp_Project_Example.dir\build.make CMakeFiles/Cpp_Project_Example.dir/build
+.PHONY : Cpp_Project_Example/fast
 
 source/main.obj: source/main.cpp.obj
 
@@ -128,7 +128,7 @@ source/main.obj: source/main.cpp.obj
 
 # target to build an object file
 source/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\C++_Project_Exmple.dir\build.make CMakeFiles/C++_Project_Exmple.dir/source/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Cpp_Project_Example.dir\build.make CMakeFiles/Cpp_Project_Example.dir/source/main.cpp.obj
 .PHONY : source/main.cpp.obj
 
 source/main.i: source/main.cpp.i
@@ -137,7 +137,7 @@ source/main.i: source/main.cpp.i
 
 # target to preprocess a source file
 source/main.cpp.i:
-	$(MAKE) -f CMakeFiles\C++_Project_Exmple.dir\build.make CMakeFiles/C++_Project_Exmple.dir/source/main.cpp.i
+	$(MAKE) -f CMakeFiles\Cpp_Project_Example.dir\build.make CMakeFiles/Cpp_Project_Example.dir/source/main.cpp.i
 .PHONY : source/main.cpp.i
 
 source/main.s: source/main.cpp.s
@@ -146,7 +146,7 @@ source/main.s: source/main.cpp.s
 
 # target to generate assembly for a file
 source/main.cpp.s:
-	$(MAKE) -f CMakeFiles\C++_Project_Exmple.dir\build.make CMakeFiles/C++_Project_Exmple.dir/source/main.cpp.s
+	$(MAKE) -f CMakeFiles\Cpp_Project_Example.dir\build.make CMakeFiles/Cpp_Project_Example.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
 # Help Target
@@ -155,9 +155,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... C++_Project_Exmple
 	@echo ... rebuild_cache
+	@echo ... Cpp_Project_Example
+	@echo ... edit_cache
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s

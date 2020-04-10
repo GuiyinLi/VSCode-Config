@@ -2,30 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "C++_Project_Exmple_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/VS_Code_program/C-C++/C++_Project_Exmple/build"
-		},
-		{
-			"name" : "C++_Project_Exmple_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/VS_Code_program/C-C++/C++_Project_Exmple"
-		},
-		{
 			"name" : "CMAKE_AR",
 			"properties" : 
 			[
@@ -63,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/VS_Code_program/C-C++/C++_Project_Exmple/build"
+			"value" : "d:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -639,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/VS_Code_program/C-C++/C++_Project_Exmple"
+			"value" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -651,7 +627,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/C++_Project_Exmple"
+			"value" : "C:/Program Files (x86)/Cpp_Project_Example"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -871,7 +847,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C++_Project_Exmple"
+			"value" : "Cpp_Project_Example"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1248,6 +1224,30 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "Cpp_Project_Example_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example/build"
+		},
+		{
+			"name" : "Cpp_Project_Example_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example"
 		}
 	],
 	"kind" : "cache",

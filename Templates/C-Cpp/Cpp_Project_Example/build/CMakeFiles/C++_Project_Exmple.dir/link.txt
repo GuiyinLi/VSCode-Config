@@ -1,3 +1,0 @@
-E:\CMake\bin\cmake.exe -E remove -f CMakeFiles\C++_Project_Exmple.dir/objects.a
-E:\mingw64\bin\ar.exe cr CMakeFiles\C++_Project_Exmple.dir/objects.a @CMakeFiles\C++_Project_Exmple.dir\objects1.rsp
-g++ -g  -fexec-charset=GBK -g   -Wl,--whole-archive CMakeFiles\C++_Project_Exmple.dir/objects.a -Wl,--no-whole-archive  -o ..\bin\C++_Project_Exmple.exe -Wl,--out-implib,..\bin\libC++_Project_Exmple.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\C++_Project_Exmple.dir\linklibs.rsp

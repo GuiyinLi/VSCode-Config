@@ -1,7 +1,7 @@
 [
 {
-  "directory": "D:/VS_Code_program/C-C++/C_Project_Example/build",
-  "command": "E:\\mingw64\\bin\\gcc.exe  @CMakeFiles/C_Project_Example.dir/includes_C.rsp -g   -o CMakeFiles\\C_Project_Example.dir\\source\\test.c.obj   -c D:\\VS_Code_program\\C-C++\\C_Project_Example\\source\\test.c",
-  "file": "D:/VS_Code_program/C-C++/C_Project_Example/source/test.c"
+  "directory": "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/build",
+  "command": "E:\\mingw64\\bin\\gcc.exe  @CMakeFiles/C_Project_Example.dir/includes_C.rsp -g   -o CMakeFiles\\C_Project_Example.dir\\source\\test.c.obj   -c D:\\VSCode\\VSCode_Help\\Templates\\C-Cpp\\C_Project_Example\\source\\test.c",
+  "file": "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/source/test.c"
 }
 ]

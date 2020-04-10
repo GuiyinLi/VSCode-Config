@@ -53,50 +53,50 @@ RM = E:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VS_Code_program\C-C++\C++_Project_Exmple
+CMAKE_SOURCE_DIR = D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VS_Code_program\C-C++\C++_Project_Exmple\build
+CMAKE_BINARY_DIR = D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "clean" target.
-clean: CMakeFiles/C++_Project_Exmple.dir/clean
+clean: CMakeFiles/Cpp_Project_Example.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/C++_Project_Exmple.dir
+# Target rules for target CMakeFiles/Cpp_Project_Example.dir
 
 # All Build rule for target.
-CMakeFiles/C++_Project_Exmple.dir/all:
-	$(MAKE) -f CMakeFiles\C++_Project_Exmple.dir\build.make CMakeFiles/C++_Project_Exmple.dir/depend
-	$(MAKE) -f CMakeFiles\C++_Project_Exmple.dir\build.make CMakeFiles/C++_Project_Exmple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\VS_Code_program\C-C++\C++_Project_Exmple\build\CMakeFiles --progress-num=1,2 "Built target C++_Project_Exmple"
-.PHONY : CMakeFiles/C++_Project_Exmple.dir/all
+CMakeFiles/Cpp_Project_Example.dir/all:
+	$(MAKE) -f CMakeFiles\Cpp_Project_Example.dir\build.make CMakeFiles/Cpp_Project_Example.dir/depend
+	$(MAKE) -f CMakeFiles\Cpp_Project_Example.dir\build.make CMakeFiles/Cpp_Project_Example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example\build\CMakeFiles --progress-num=1,2 "Built target Cpp_Project_Example"
+.PHONY : CMakeFiles/Cpp_Project_Example.dir/all
 
 # Include target in all.
-all: CMakeFiles/C++_Project_Exmple.dir/all
+all: CMakeFiles/Cpp_Project_Example.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/C++_Project_Exmple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VS_Code_program\C-C++\C++_Project_Exmple\build\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/C++_Project_Exmple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VS_Code_program\C-C++\C++_Project_Exmple\build\CMakeFiles 0
-.PHONY : CMakeFiles/C++_Project_Exmple.dir/rule
+CMakeFiles/Cpp_Project_Example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example\build\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Cpp_Project_Example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\VSCode_Help\Templates\C-Cpp\Cpp_Project_Example\build\CMakeFiles 0
+.PHONY : CMakeFiles/Cpp_Project_Example.dir/rule
 
 # Convenience name for target.
-C++_Project_Exmple: CMakeFiles/C++_Project_Exmple.dir/rule
+Cpp_Project_Example: CMakeFiles/Cpp_Project_Example.dir/rule
 
-.PHONY : C++_Project_Exmple
+.PHONY : Cpp_Project_Example
 
 # clean rule for target.
-CMakeFiles/C++_Project_Exmple.dir/clean:
-	$(MAKE) -f CMakeFiles\C++_Project_Exmple.dir\build.make CMakeFiles/C++_Project_Exmple.dir/clean
-.PHONY : CMakeFiles/C++_Project_Exmple.dir/clean
+CMakeFiles/Cpp_Project_Example.dir/clean:
+	$(MAKE) -f CMakeFiles\Cpp_Project_Example.dir\build.make CMakeFiles/Cpp_Project_Example.dir/clean
+.PHONY : CMakeFiles/Cpp_Project_Example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

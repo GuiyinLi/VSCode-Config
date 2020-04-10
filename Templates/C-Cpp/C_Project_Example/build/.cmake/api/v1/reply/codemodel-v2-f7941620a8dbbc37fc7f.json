@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "C++_Project_Exmple",
+					"name" : "C_Project_Example",
 					"targetIndexes" : 
 					[
 						0
@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "C++_Project_Exmple::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C++_Project_Exmple-Debug-cd858f0dbc659eca172b.json",
-					"name" : "C++_Project_Exmple",
+					"id" : "C_Project_Example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_Project_Example-Debug-8349fa894452828e17b9.json",
+					"name" : "C_Project_Example",
 					"projectIndex" : 0
 				}
 			]
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/VS_Code_program/C-C++/C++_Project_Exmple/build",
-		"source" : "D:/VS_Code_program/C-C++/C++_Project_Exmple"
+		"build" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/build",
+		"source" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example"
 	},
 	"version" : 
 	{

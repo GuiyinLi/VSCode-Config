@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/VS_Code_program/C-C++/C_Project_Example/build"
+			"value" : "d:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/VS_Code_program/C-C++/C_Project_Example"
+			"value" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1235,7 +1235,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/VS_Code_program/C-C++/C_Project_Example/build"
+			"value" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/build"
 		},
 		{
 			"name" : "C_Project_Example_SOURCE_DIR",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/VS_Code_program/C-C++/C_Project_Example"
+			"value" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example"
 		}
 	],
 	"kind" : "cache",

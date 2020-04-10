@@ -53,10 +53,10 @@ RM = E:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\VS_Code_program\C-C++\C_Project_Example
+CMAKE_SOURCE_DIR = D:\VSCode\VSCode_Help\Templates\C-Cpp\C_Project_Example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\VS_Code_program\C-C++\C_Project_Example\build
+CMAKE_BINARY_DIR = D:\VSCode\VSCode_Help\Templates\C-Cpp\C_Project_Example\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,7 +73,7 @@ clean: CMakeFiles/C_Project_Example.dir/clean
 CMakeFiles/C_Project_Example.dir/all:
 	$(MAKE) -f CMakeFiles\C_Project_Example.dir\build.make CMakeFiles/C_Project_Example.dir/depend
 	$(MAKE) -f CMakeFiles\C_Project_Example.dir\build.make CMakeFiles/C_Project_Example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\VS_Code_program\C-C++\C_Project_Example\build\CMakeFiles --progress-num=1,2 "Built target C_Project_Example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\VSCode\VSCode_Help\Templates\C-Cpp\C_Project_Example\build\CMakeFiles --progress-num=1,2 "Built target C_Project_Example"
 .PHONY : CMakeFiles/C_Project_Example.dir/all
 
 # Include target in all.
@@ -83,9 +83,9 @@ all: CMakeFiles/C_Project_Example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C_Project_Example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VS_Code_program\C-C++\C_Project_Example\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\VSCode_Help\Templates\C-Cpp\C_Project_Example\build\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/C_Project_Example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\VS_Code_program\C-C++\C_Project_Example\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\VSCode\VSCode_Help\Templates\C-Cpp\C_Project_Example\build\CMakeFiles 0
 .PHONY : CMakeFiles/C_Project_Example.dir/rule
 
 # Convenience name for target.

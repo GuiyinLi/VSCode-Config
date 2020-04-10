@@ -1,11 +1,9 @@
 {
-    /*  网易云音乐插件：
-        https://github.com/electron/electron/releases
-        https://npm.taobao.org/mirrors/electron/4.2.5/
-        */
     //git配置
+    "git.enabled": true,
     "git.autofetch": true,
-    "git.enabled": false,
+    "gitTreeCompare.autoRefresh": true,
+    "git.autorefresh": true,
     "git.ignoreLimitWarning": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
@@ -48,6 +46,7 @@
     "sync.gist": "bc7cd04c092e9ebf5ff81d998fab079c",
     //页面配置
     "window.zoomLevel": 0,
+    "editor.minimap.size": "proportional",
     "editor.fontSize": 18,
     "debug.console.fontSize": 16,
     "terminal.integrated.fontSize": 16,
@@ -59,7 +58,7 @@
     "editor.smoothScrolling": true, // 滚动平滑，不过效果很微弱
     "editor.cursorWidth": 2,
     "backgroundCover.randomImageFolder": "C:\\Users\\Dell\\Desktop\\temp\\codeBackground",
-    "backgroundCover.imagePath": "C:\\Users\\Dell\\Desktop\\temp\\codeBackground\\17.jpg",
+    "backgroundCover.imagePath": "C:\\Users\\Dell\\Desktop\\temp\\codeBackground\\pink boy.jpg",
     "backgroundCover.opacity": 0.4,
     "backgroundCover.autoStatus": true,
     //颜色搭配
@@ -106,7 +105,15 @@
         "c++"
     ],
     "cSpell.userWords": [
-        "Kaneki"
+        "Kaneki",
+        "cmake",
+        "download",
+        "helper",
+        "monokai",
+        "path",
+        "pymysql",
+        "stdlib",
+        "tools"
     ],
     "cSpell.allowedSchemas": [
         "file",
@@ -125,4 +132,6 @@
     "terminal.integrated.shellArgs.windows": [
         "-Nologo"
     ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.associations": {},
 }

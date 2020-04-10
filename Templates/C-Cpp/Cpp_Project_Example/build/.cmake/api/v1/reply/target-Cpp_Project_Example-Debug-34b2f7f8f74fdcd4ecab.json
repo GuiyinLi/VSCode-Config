@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/VS_Code_program/C-C++/C++_Project_Exmple/bin/C++_Project_Exmple.exe"
+			"path" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example/bin/Cpp_Project_Example.exe"
 		},
 		{
-			"path" : "D:/VS_Code_program/C-C++/C++_Project_Exmple/bin/C++_Project_Exmple.pdb"
+			"path" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example/bin/Cpp_Project_Example.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/VS_Code_program/C-C++/C++_Project_Exmple/include"
+					"path" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/Cpp_Project_Example/include"
 				}
 			],
 			"language" : "CXX",
@@ -62,7 +62,7 @@
 			]
 		}
 	],
-	"id" : "C++_Project_Exmple::@6890427a1f51a3e7e1df",
+	"id" : "Cpp_Project_Example::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -78,8 +78,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "C++_Project_Exmple",
-	"nameOnDisk" : "C++_Project_Exmple.exe",
+	"name" : "Cpp_Project_Example",
+	"nameOnDisk" : "Cpp_Project_Example.exe",
 	"paths" : 
 	{
 		"build" : ".",

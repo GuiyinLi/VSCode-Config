@@ -1,4 +1,4 @@
-# Install script for directory: D:/VS_Code_program/C-C++/C_Project_Example
+# Install script for directory: D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/VS_Code_program/C-C++/C_Project_Example/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

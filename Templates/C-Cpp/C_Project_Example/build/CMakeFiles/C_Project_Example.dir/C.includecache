@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/VS_Code_program/C-C++/C_Project_Example/source/test.c
+D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/source/test.c
 stdio.h
-D:/VS_Code_program/C-C++/C_Project_Example/source/stdio.h
+D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/source/stdio.h
 stdlib.h
-D:/VS_Code_program/C-C++/C_Project_Example/source/stdlib.h
+D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/source/stdlib.h
 

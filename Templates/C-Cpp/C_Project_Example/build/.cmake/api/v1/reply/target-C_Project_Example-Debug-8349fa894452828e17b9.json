@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/VS_Code_program/C-C++/C_Project_Example/bin/C_Project_Example.exe"
+			"path" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/bin/C_Project_Example.exe"
 		},
 		{
-			"path" : "D:/VS_Code_program/C-C++/C_Project_Example/bin/C_Project_Example.pdb"
+			"path" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/bin/C_Project_Example.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/VS_Code_program/C-C++/C_Project_Example/include"
+					"path" : "D:/VSCode/VSCode_Help/Templates/C-Cpp/C_Project_Example/include"
 				}
 			],
 			"language" : "C",

@@ -6,5 +6,5 @@ CXX_FLAGS = -g  -fexec-charset=GBK -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/C++_Project_Exmple.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/Cpp_Project_Example.dir/includes_CXX.rsp
 

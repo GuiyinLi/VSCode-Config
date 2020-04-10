@@ -1,7 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "..\\C-C++\\Maze_V3.0"
+			"path": "..\\VSCode_Help\\Templates\\C-Cpp\\C_Project_Example"
+		},
+		{
+			"path": "..\\VSCode_Help\\Templates\\C-Cpp\\Cpp_Project_Example"
 		}
 	],
 	"settings": {
