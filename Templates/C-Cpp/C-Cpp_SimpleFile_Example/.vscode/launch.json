@@ -27,7 +27,7 @@
             "stopAtEntry": true, // 设为true时程序将暂停在程序入口处，一般设置为false
             "cwd": "${workspaceFolder}", // 调试程序时的工作目录，一般为${workspaceFolder}即代码所在目录
             "environment": [],
-            "externalConsole": false, // 调试时是否显示控制台窗口，一般设置为true显示控制台
+            "externalConsole": true, // 调试时是否显示控制台窗口，一般设置为true显示控制台
             "MIMode": "gdb",
             "miDebuggerPath": "E:\\mingw64\\bin\\gdb.exe", // miDebugger的路径，注意这里要与MinGw的路径对应
             "setupCommands": [

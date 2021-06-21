@@ -1,9 +1,5 @@
 {
-	"folders": [
-		{
-			"path": "..\\Python\\Library_management_system\\Library_Database"
-		}
-	],
+	"folders": [],
 	"settings": {
 		//Python设置
 		"autoimport.showNotifications": true,

@@ -1,7 +1,13 @@
 {
-    //Python设置
+    //Python设置"--generated-members=numpy.* ,torch.* ,cv2.* , cv.*"
     "python.linting.pylintArgs": [
-        "--disable=C,broad-except,anomalous-backslash-in-string,pointless-string-statement,",
+        "--errors-only",
+        "--disable=C",
+        "broad-except",
+        "anomalous-backslash-in-string",
+        "pointless-string-statement",
+        "--generate-members=pygame.*",
+        "----extension-pkg-whitelist=pygame"
     ],
     "python.analysis.disabled": [
         //"unresolved-import"
@@ -10,5 +16,6 @@
     "files.encoding": "utf8",
     //code-runner设置
     "code-runner.runInTerminal": false, // 设置成false会在“输出”中输出，无法输入
-    "code-runner.preserveFocus": false, // 若为false，run code后光标会聚焦到终端上。如果需要频繁输入数据可设为false
+    "code-runner.preserveFocus": false,
+    "python.pythonPath": "/usr/bin/python3", // 若为false，run code后光标会聚焦到终端上。如果需要频繁输入数据可设为false
 }

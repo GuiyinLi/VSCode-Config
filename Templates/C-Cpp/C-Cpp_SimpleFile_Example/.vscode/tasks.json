@@ -59,7 +59,7 @@
                 "${workspaceFolder}/bin/${fileBasenameNoExtension}.exe"
             ],
             "dependsOn": [
-                "Compile"
+                "Compile current code"
             ],
             "group": {
                 "kind": "build",
